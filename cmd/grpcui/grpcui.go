@@ -148,7 +148,7 @@ var (
 
 	port = flags.Int("port", 0, prettify(`
 		The port on which the web UI is exposed.`))
-	bind = flags.String("bind", "127.0.0.1", prettify(`
+	bind = flags.String("bind", "192.168.56.1", prettify(`
 		The address on which the web UI is exposed.`))
 	basePath = flags.String("base-path", "/", prettify(`
 		The path on which the web UI is exposed.
